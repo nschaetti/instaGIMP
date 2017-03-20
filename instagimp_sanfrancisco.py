@@ -2,7 +2,7 @@
 #
 # -------------------------------------------------------------------------------------
 #
-# Copyright (c) 2013, Jose F. Maldonado
+# Copyright (c) 2017, Nils Schaetti <n.schaetti@gmail.com>
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without modification, 
