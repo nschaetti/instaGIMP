@@ -3,41 +3,20 @@
 # -------------------------------------------------------------------------------------
 #
 # Copyright (c) 2017, Nils Schaetti <n.schaetti@gmail.com>
-# All rights reserved.
 #
-# Redistribution and use in source and binary forms, with or without modification, 
-# are permitted provided that the following conditions are met:
+# This file is part of InstaGIMP.  InstaGIMP is free software: you can
+# redistribute it and/or modify it under the terms of the GNU General Public
+# License as published by the Free Software Foundation, version 3.
 #
-#    - Redistributions of source code must retain the above copyright notice, this 
-#    list of conditions and the following disclaimer.
-#    - Redistributions in binary form must reproduce the above copyright notice, 
-#    this list of conditions and the following disclaimer in the documentation and/or 
-#    other materials provided with the distribution.
-#    - Neither the name of the author nor the names of its contributors may be used 
-#    to endorse or promote products derived from this software without specific prior 
-#    written permission.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+# details.
 #
-# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY 
-# EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES 
-# OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT 
-# SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, 
-# INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
-# TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR 
-# BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN 
-# CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN 
-# ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH 
-# DAMAGE.
+# You should have received a copy of the GNU General Public License along with
+# this program; if not, write to the Free Software Foundation, Inc., 51
+# Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 #
-# -------------------------------------------------------------------------------------
-#
-# This file is a basic example of a Python plug-in for GIMP.
-#
-# It can be executed by selecting the menu option: 'Filters/Test/Discolour layer v1'
-# or by writing the following lines in the Python console (that can be opened with the
-# menu option 'Filters/Python-Fu/Console'):
-# >>> image = gimp.image_list()[0]
-# >>> layer = image.layers[0]
-# >>> gimp.pdb.python_fu_test_discolour_layer_v1(image, layer)
 
 from gimpfu import *
 import math
